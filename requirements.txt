@@ -1,0 +1,32 @@
+pandas
+numpy
+seaborn
+matplotlib
+nselib
+tensorflow==2.20.0
+tensorboard
+# flask
+# streamlit
+xgboost
+scikit-learn
+tqdm
+statsmodels
+shap
+ipykernel
+# openpyxl
+# tabulate
+keras-tuner
+# nltk
+# gensim
+streamlit
+requests
+beautifulsoup4
+numpy
+scipy
+pandas
+lxml
+pandas_market_calendars
+graphviz
+pydot
+pydotplus
+plotly
