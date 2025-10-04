@@ -176,6 +176,9 @@ mse_all = mean_squared_error(y_test_inv.flatten(), y_pred_inv.flatten())
 mae_all = mean_absolute_error(y_test_inv.flatten(), y_pred_inv.flatten())
 ```
 
+### The APP prediction are 
+![Test Prediction](Images/preds_app.png)
+
 The Simple RNN model shows good accuracy with lower test errors (MSE: 61.3, RMSE: 7.83) and a slight positive bias (2.37), indicating mild overprediction. Errors are reasonable for stock forecasting, but further tuning could improve bias and reduce occasional larger errors.
 
 
