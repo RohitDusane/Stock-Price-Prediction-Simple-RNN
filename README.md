@@ -176,8 +176,12 @@ mse_all = mean_squared_error(y_test_inv.flatten(), y_pred_inv.flatten())
 mae_all = mean_absolute_error(y_test_inv.flatten(), y_pred_inv.flatten())
 ```
 
+The Simple RNN model shows good accuracy with lower test errors (MSE: 61.3, RMSE: 7.83) and a slight positive bias (2.37), indicating mild overprediction. Errors are reasonable for stock forecasting, but further tuning could improve bias and reduce occasional larger errors.
+
+
 ---
 
 ### ✅ Conclusion
 
 This Simple RNN model, trained on historical data, effectively predicts multiple future steps of a time series. While basic, this approach serves as a solid foundation for more advanced models like LSTM or GRU and architectures like Seq2Seq or attention-based models.
+
